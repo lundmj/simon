@@ -44,3 +44,12 @@ footer a {
   color: rgb(246, 239, 158); /*Not sure what this is for haha*/
 }
 
+.players {
+  flex: 1;
+  width: 100%;
+  padding: 0.5em;
+}
+
+.player-name {
+  color: rgb(118, 190, 210);
+}
