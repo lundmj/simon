@@ -103,3 +103,15 @@ footer a {
   border: thick solid rgb(27, 14, 100);
 }
 
+.controls {
+  position: absolute;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  padding: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
