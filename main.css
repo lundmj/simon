@@ -39,3 +39,8 @@ menu .nav-item {
 footer a {
   float: right;
 }
+
+#count {
+  color: rgb(246, 239, 158); /*Not sure what this is for haha*/
+}
+
