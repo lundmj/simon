@@ -1,7 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 375px;
+  min-width: 300px;
 }
 
 header {
@@ -23,6 +23,7 @@ footer {
 menu {
   flex: 1;
   display: flex;
+  /*  overwrite Bootstrap so the menu does not wrap */
   flex-direction: row !important;
   list-style: none;
 }
@@ -41,7 +42,7 @@ footer a {
 }
 
 #count {
-  color: rgb(246, 239, 158); /*Not sure what this is for haha*/
+  color: rgb(246, 239, 158);
 }
 
 .players {
@@ -55,14 +56,14 @@ footer a {
 }
 
 .game {
-  background: rgb(0,0,0);
-  border-radius:50%;
-  box-shadow: 0 0 20px 5px rgb(69,69,69);
+  background: rgb(0, 0, 0);
+  border-radius: 50%;
+  box-shadow: 0 0 20px 5px rgb(69, 69, 69);
   width: 80vw;
   height: 80vw;
   position: absolute;
-  min-width: 350px;
-  min-height: 350px;
+  min-width: 300px;
+  min-height: 300px;
   max-width: min(80vmin, 1000px);
   max-height: min(80vmin, 1000px);
 }
@@ -72,7 +73,7 @@ footer a {
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px
+  gap: 20px;
 }
 
 .button-top-left {
@@ -93,7 +94,7 @@ footer a {
   border-radius: 0 0 0 100%;
   margin: 0 0 20px 20px;
   background-color: yellow;
-  border: thick solid rgb(130, 124, 13);
+  border: thick solid rgb(94, 90, 10);
 }
 
 .button-bottom-right {
@@ -143,7 +144,7 @@ footer a {
   transform: translateX(-50%) translateY(-50%);
 }
 
-@media (max-height: 600px) {
+@media (max-height: 500px) {
   header {
     display: none;
   }
